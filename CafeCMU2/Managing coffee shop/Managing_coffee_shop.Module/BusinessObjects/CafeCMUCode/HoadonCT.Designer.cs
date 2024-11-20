@@ -31,7 +31,11 @@ namespace Managing_coffee_shop.Module.BusinessObjects.ORMDataModel1
         public Sanpham SanphamID
         {
             get { return fSanphamID; }
-            set { SetPropertyValue<Sanpham>(nameof(SanphamID), ref fSanphamID, value); }
+            set 
+            {
+                if (SetPropertyValue<Sanpham>(nameof(SanphamID), ref fSanphamID, value) && !IsLoading && !IsDeleted && value != null)
+                    Dongia = value.Giaban;
+            }
         }
         double fSoluong;
         public double Soluong
@@ -40,6 +44,7 @@ namespace Managing_coffee_shop.Module.BusinessObjects.ORMDataModel1
             set { SetPropertyValue<double>(nameof(Soluong), ref fSoluong, value); }
         }
         decimal fDongia;
+        [DevExpress.Xpo.DisplayName(@"Đơn giá")]
         [DevExpress.ExpressApp.Model.ModelDefault("DisplayFormat", "### ### ### ###"),
 DevExpress.ExpressApp.Model.ModelDefault("EditMask", "### ### ### ###")]
         public decimal Dongia
@@ -52,6 +57,7 @@ DevExpress.ExpressApp.Model.ModelDefault("EditMask", "### ### ### ###")
 ]
         [PersistentAlias("ToDecimal([Soluong]) * [Dongia]")]
         public decimal Thanhtien
+
         {
             get { return (decimal)(EvaluateAlias(nameof(Thanhtien))); }
         }

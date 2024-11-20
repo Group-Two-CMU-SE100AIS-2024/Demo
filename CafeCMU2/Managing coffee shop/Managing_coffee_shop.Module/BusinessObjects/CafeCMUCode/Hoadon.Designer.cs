@@ -40,6 +40,20 @@ DevExpress.ExpressApp.Model.ModelDefault("DisplayFormat", "{0:dd/MM/yyyy HH:mm}"
             get { return fSophieu; }
             set { SetPropertyValue<long>(nameof(Sophieu), ref fSophieu, value); }
         }
+        [DevExpress.Xpo.DisplayName(@"Tổng tiền")]
+        [DevExpress.ExpressApp.Model.ModelDefault("DisplayFormat", "### ### ### ###")]
+        public decimal Tongtien
+        {
+            get
+            {
+                decimal tien = 0;
+                foreach(HoadonCT item in HoadonCTs)
+                {
+                    tien += item.Thanhtien;
+                }
+                return tien;
+            }
+        }
         [Association(@"HoadonCTReferencesHoadon"), Aggregated]
         public XPCollection<HoadonCT> HoadonCTs { get { return GetCollection<HoadonCT>(nameof(HoadonCTs)); } }
     }

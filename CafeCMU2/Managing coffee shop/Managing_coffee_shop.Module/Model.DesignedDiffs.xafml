@@ -21,5 +21,8 @@
   </SchemaModules>
   <Views>
     <ListView Id="ApplicationUser_ListView" Caption="Users" />
+    <ListView Id="Hoadon_HoadonCTs_ListView" AllowEdit="True" NewItemRowPosition="Top" />
+    <ListView Id="Hoadon_ListView" AllowEdit="True" />
+    <ListView Id="Sanpham_ListView" AllowEdit="True" NewItemRowPosition="Top" />
   </Views>
 </Application>

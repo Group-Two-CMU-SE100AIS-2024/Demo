@@ -11,7 +11,14 @@ namespace Managing_coffee_shop.Module.BusinessObjects.ORMDataModel1
     public partial class Hoadon
     {
         public Hoadon(Session session) : base(session) { }
-        public override void AfterConstruction() { base.AfterConstruction(); }
+        public override void AfterConstruction() 
+        { 
+            base.AfterConstruction();
+            if (Session.IsNewObject(this))
+            {
+                Ngay=DateTime.Now;
+            }
+        }
     }
 
 }
