@@ -9,23 +9,23 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Managing_coffee_shop.Blazor.Server
 build_property.RootNamespace = Managing_coffee_shop.Blazor.Server
-build_property.ProjectDir = D:\GITHUB\CafeCMU2\Managing coffee shop\Managing_coffee_shop.Blazor.Server\
+build_property.ProjectDir = D:\Github\CafeCMU2\Managing coffee shop\Managing_coffee_shop.Blazor.Server\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\GITHUB\CafeCMU2\Managing coffee shop\Managing_coffee_shop.Blazor.Server
+build_property.MSBuildProjectDirectory = D:\Github\CafeCMU2\Managing coffee shop\Managing_coffee_shop.Blazor.Server
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/GITHUB/CafeCMU2/Managing coffee shop/Managing_coffee_shop.Blazor.Server/App.razor]
+[D:/Github/CafeCMU2/Managing coffee shop/Managing_coffee_shop.Blazor.Server/App.razor]
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/GITHUB/CafeCMU2/Managing coffee shop/Managing_coffee_shop.Blazor.Server/_Imports.razor]
+[D:/Github/CafeCMU2/Managing coffee shop/Managing_coffee_shop.Blazor.Server/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/GITHUB/CafeCMU2/Managing coffee shop/Managing_coffee_shop.Blazor.Server/Pages/_Host.cshtml]
+[D:/Github/CafeCMU2/Managing coffee shop/Managing_coffee_shop.Blazor.Server/Pages/_Host.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0hvc3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 

@@ -20,23 +20,29 @@ namespace Managing_coffee_shop.Module.BusinessObjects.ORMDataModel1
     public partial class Sanpham : DevExpress.Persistent.BaseImpl.BaseObject
     {
         string fTenSP;
+        [Size(50)]
         public string TenSP
         {
             get { return fTenSP; }
             set { SetPropertyValue<string>(nameof(TenSP), ref fTenSP, value); }
         }
         string fDvt;
+        [Size(30)]
         public string Dvt
         {
             get { return fDvt; }
             set { SetPropertyValue<string>(nameof(Dvt), ref fDvt, value); }
         }
-        string fGiaban;
-        public string Giaban
+        decimal fGiaban;
+        [DevExpress.ExpressApp.Model.ModelDefault("DisplayFormat", "### ### ### ###"),
+DevExpress.ExpressApp.Model.ModelDefault("EditMask", "### ### ### ###")]
+        public decimal Giaban
         {
             get { return fGiaban; }
-            set { SetPropertyValue<string>(nameof(Giaban), ref fGiaban, value); }
+            set { SetPropertyValue<decimal>(nameof(Giaban), ref fGiaban, value); }
         }
+        [Association(@"HoadonCTReferencesSanpham"), Aggregated]
+        public XPCollection<HoadonCT> HoadonCTs { get { return GetCollection<HoadonCT>(nameof(HoadonCTs)); } }
     }
 
 }

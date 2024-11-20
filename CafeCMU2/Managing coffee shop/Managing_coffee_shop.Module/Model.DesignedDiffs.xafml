@@ -1,11 +1,24 @@
-﻿<?xml version="1.0" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Application Title="Managing coffee shop">
   <BOModel>
     <Class Name="DevExpress.Persistent.BaseImpl.PermissionPolicy.PermissionPolicyUser" Caption="Base User" />
   </BOModel>
+  <NavigationItems>
+    <Items>
+      <Item Id="@55448715-ffb9-44cb-ad88-a5bd01c2c7a3" Caption="Quản lý" ImageName="BO_Category" IsNewNode="True">
+        <Items IsNewNode="True">
+          <Item Id="@9ff26097-3e5b-4c92-acec-8509ddffe087" ViewId="Sanpham_ListView" Caption="Sản phẩm" IsNewNode="True" />
+          <Item Id="@b1bd6b05-1316-4afd-a6e0-dc3d1658faa6" Caption="Hóa đơn" ImageName="BO_Invoice" ViewId="Hoadon_ListView" IsNewNode="True" />
+        </Items>
+      </Item>
+    </Items>
+  </NavigationItems>
   <Options>
     <LayoutManagerOptions RequiredFieldMark="*" />
   </Options>
+  <SchemaModules>
+    <SchemaModule Name="SystemModule" Version="24.1.7.0" IsNewNode="True" />
+  </SchemaModules>
   <Views>
     <ListView Id="ApplicationUser_ListView" Caption="Users" />
   </Views>
