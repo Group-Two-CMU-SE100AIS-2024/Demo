@@ -13,9 +13,10 @@ using DevExpress.Data.Filtering;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Reflection;
+using DevExpress.Persistent.Base;
 namespace Managing_coffee_shop.Module.BusinessObjects.ORMDataModel1
 {
-
+    [DefaultClassOptions]
     [DefaultProperty("Soluong")]
     public partial class HoadonCT : DevExpress.Persistent.BaseImpl.BaseObject
     {

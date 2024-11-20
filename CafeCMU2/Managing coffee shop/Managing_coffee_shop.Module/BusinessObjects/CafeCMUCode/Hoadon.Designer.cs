@@ -13,10 +13,12 @@ using DevExpress.Data.Filtering;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Reflection;
+using DevExpress.Persistent.Base;
 namespace Managing_coffee_shop.Module.BusinessObjects.ORMDataModel1
 {
 
     [DefaultProperty("Soban")]
+    [DefaultClassOptions]
     public partial class Hoadon : DevExpress.Persistent.BaseImpl.BaseObject
     {
         string fSoban;
