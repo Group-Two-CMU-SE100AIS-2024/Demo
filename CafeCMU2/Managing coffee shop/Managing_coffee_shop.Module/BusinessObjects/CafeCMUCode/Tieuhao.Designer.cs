@@ -17,21 +17,21 @@ namespace Managing_coffee_shop.Module.BusinessObjects.ORMDataModel1
 {
 
     [DefaultProperty("Soluong")]
-    public partial class HoadonCT : DevExpress.Persistent.BaseImpl.BaseObject
+    public partial class Tieuhao : DevExpress.Persistent.BaseImpl.BaseObject
     {
-        Hoadon fHoadonID;
-        [Association(@"HoadonCTReferencesHoadon")]
-        public Hoadon HoadonID
-        {
-            get { return fHoadonID; }
-            set { SetPropertyValue<Hoadon>(nameof(HoadonID), ref fHoadonID, value); }
-        }
         Sanpham fSanphamID;
-        [Association(@"HoadonCTReferencesSanpham")]
+        [Association(@"TieuhaoReferencesSanpham")]
         public Sanpham SanphamID
         {
             get { return fSanphamID; }
             set { SetPropertyValue<Sanpham>(nameof(SanphamID), ref fSanphamID, value); }
+        }
+        HoadonCT fHoadonCTID;
+        [Association(@"TieuhaoReferencesHoadonCT")]
+        public HoadonCT HoadonCTID
+        {
+            get { return fHoadonCTID; }
+            set { SetPropertyValue<HoadonCT>(nameof(HoadonCTID), ref fHoadonCTID, value); }
         }
         double fSoluong;
         public double Soluong
@@ -47,18 +47,6 @@ DevExpress.ExpressApp.Model.ModelDefault("EditMask", "### ### ### ###")]
             get { return fDongia; }
             set { SetPropertyValue<decimal>(nameof(Dongia), ref fDongia, value); }
         }
-        [DevExpress.ExpressApp.Model.ModelDefault("DisplayFormat", "### ### ### ###"),
-DevExpress.ExpressApp.Model.ModelDefault("EditMask", "### ### ### ###")
-]
-        [PersistentAlias("ToDecimal([Soluong]) * [Dongia]")]
-        public decimal Thanhtien
-        {
-            get { return (decimal)(EvaluateAlias(nameof(Thanhtien))); }
-        }
-        [Association(@"DongnhapReferencesHoadonCT"), Aggregated]
-        public XPCollection<Dongnhap> Dongnhaps { get { return GetCollection<Dongnhap>(nameof(Dongnhaps)); } }
-        [Association(@"TieuhaoReferencesHoadonCT"), Aggregated]
-        public XPCollection<Tieuhao> Tieuhaos { get { return GetCollection<Tieuhao>(nameof(Tieuhaos)); } }
     }
 
 }

@@ -13,13 +13,19 @@ using DevExpress.Data.Filtering;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Reflection;
-using DevExpress.Persistent.Base;
 namespace Managing_coffee_shop.Module.BusinessObjects.ORMDataModel1
 {
-    [DefaultClassOptions]
+
     [DefaultProperty("TenSP")]
     public partial class Sanpham : DevExpress.Persistent.BaseImpl.BaseObject
     {
+        NhomSP fNhomID;
+        [Association(@"SanphamReferencesNhomSP")]
+        public NhomSP NhomID
+        {
+            get { return fNhomID; }
+            set { SetPropertyValue<NhomSP>(nameof(NhomID), ref fNhomID, value); }
+        }
         string fTenSP;
         [Size(50)]
         public string TenSP
@@ -44,6 +50,14 @@ DevExpress.ExpressApp.Model.ModelDefault("EditMask", "### ### ### ###")]
         }
         [Association(@"HoadonCTReferencesSanpham"), Aggregated]
         public XPCollection<HoadonCT> HoadonCTs { get { return GetCollection<HoadonCT>(nameof(HoadonCTs)); } }
+        [Association(@"DongnhapReferencesSanpham"), Aggregated]
+        public XPCollection<Dongnhap> Dongnhaps { get { return GetCollection<Dongnhap>(nameof(Dongnhaps)); } }
+        [Association(@"TieuhaoReferencesSanpham"), Aggregated]
+        public XPCollection<Tieuhao> Tieuhaos { get { return GetCollection<Tieuhao>(nameof(Tieuhaos)); } }
+        [Association(@"DinhluongReferencesSanpham"), Aggregated]
+        public XPCollection<Dinhluong> Dinhluongs { get { return GetCollection<Dinhluong>(nameof(Dinhluongs)); } }
+        [Association(@"DinhluongReferencesSanpham1"), Aggregated]
+        public XPCollection<Dinhluong> Dinhluongs1 { get { return GetCollection<Dinhluong>(nameof(Dinhluongs1)); } }
     }
 
 }

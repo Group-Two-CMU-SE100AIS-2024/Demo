@@ -16,14 +16,28 @@ using System.Reflection;
 namespace Managing_coffee_shop.Module.BusinessObjects.ORMDataModel1
 {
 
-    [DefaultProperty("Soban")]
-    public partial class Hoadon : DevExpress.Persistent.BaseImpl.BaseObject
+    [DefaultProperty("Sophieu")]
+    public partial class Phieuchi : DevExpress.Persistent.BaseImpl.BaseObject
     {
-        string fSoban;
-        public string Soban
+        Nhacungcap fNCCID;
+        [Association(@"PhieuchiReferencesNhacungcap")]
+        public Nhacungcap NCCID
         {
-            get { return fSoban; }
-            set { SetPropertyValue<string>(nameof(Soban), ref fSoban, value); }
+            get { return fNCCID; }
+            set { SetPropertyValue<Nhacungcap>(nameof(NCCID), ref fNCCID, value); }
+        }
+        Nhanvien fNhanvienID;
+        [Association(@"PhieuchiReferencesNhanvien")]
+        public Nhanvien NhanvienID
+        {
+            get { return fNhanvienID; }
+            set { SetPropertyValue<Nhanvien>(nameof(NhanvienID), ref fNhanvienID, value); }
+        }
+        string fSophieu;
+        public string Sophieu
+        {
+            get { return fSophieu; }
+            set { SetPropertyValue<string>(nameof(Sophieu), ref fSophieu, value); }
         }
         DateTime fNgay;
         [DevExpress.ExpressApp.Model.ModelDefault("EditMask", "dd/MM/yyyy HH:mm"),
@@ -33,15 +47,12 @@ DevExpress.ExpressApp.Model.ModelDefault("DisplayFormat", "{0:dd/MM/yyyy HH:mm}"
             get { return fNgay; }
             set { SetPropertyValue<DateTime>(nameof(Ngay), ref fNgay, value); }
         }
-        long fSophieu;
-        [DevExpress.Persistent.Validation.RuleUniqueValue]
-        public long Sophieu
+        decimal fSotien;
+        public decimal Sotien
         {
-            get { return fSophieu; }
-            set { SetPropertyValue<long>(nameof(Sophieu), ref fSophieu, value); }
+            get { return fSotien; }
+            set { SetPropertyValue<decimal>(nameof(Sotien), ref fSotien, value); }
         }
-        [Association(@"HoadonCTReferencesHoadon"), Aggregated]
-        public XPCollection<HoadonCT> HoadonCTs { get { return GetCollection<HoadonCT>(nameof(HoadonCTs)); } }
     }
 
 }
