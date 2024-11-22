@@ -7,6 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 //thaydoi nhieu lan
+//thay doi khong nhieu lam
 using System;
 using DevExpress.Xpo;
 using DevExpress.Xpo.Metadata;
