@@ -6,6 +6,7 @@
 //     the code is regenerated.
 // </auto-generated>
 //------------------------------------------------------------------------------
+//thaydoi nhieu lan
 using System;
 using DevExpress.Xpo;
 using DevExpress.Xpo.Metadata;
