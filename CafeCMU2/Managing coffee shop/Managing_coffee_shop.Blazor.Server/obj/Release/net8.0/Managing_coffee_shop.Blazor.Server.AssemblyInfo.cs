@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Managing_coffee_shop.Blazor.Server")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c3d007e8d5f1b01daa7a98248ae9046417f278b6")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8a5b3f4d58a48e408bfb0c7d28162951a01c457f")]
 [assembly: System.Reflection.AssemblyProductAttribute("Managing_coffee_shop.Blazor.Server")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Managing_coffee_shop.Blazor.Server")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.*")]

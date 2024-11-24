@@ -1,0 +1,13 @@
+D:\Github\CafeCMU2\Managing coffee shop\Managing_coffee_shop.Module\bin\Release\net8.0\Managing_coffee_shop.Module.deps.json
+D:\Github\CafeCMU2\Managing coffee shop\Managing_coffee_shop.Module\bin\Release\net8.0\Managing_coffee_shop.Module.dll
+D:\Github\CafeCMU2\Managing coffee shop\Managing_coffee_shop.Module\bin\Release\net8.0\Managing_coffee_shop.Module.pdb
+D:\Github\CafeCMU2\Managing coffee shop\Managing_coffee_shop.Module\obj\Release\net8.0\Managing_coffee_shop.Module.csproj.AssemblyReference.cache
+D:\Github\CafeCMU2\Managing coffee shop\Managing_coffee_shop.Module\obj\Release\net8.0\Managing_coffee_shop.Module.GeneratedMSBuildEditorConfig.editorconfig
+D:\Github\CafeCMU2\Managing coffee shop\Managing_coffee_shop.Module\obj\Release\net8.0\Managing_coffee_shop.Module.AssemblyInfoInputs.cache
+D:\Github\CafeCMU2\Managing coffee shop\Managing_coffee_shop.Module\obj\Release\net8.0\Managing_coffee_shop.Module.AssemblyInfo.cs
+D:\Github\CafeCMU2\Managing coffee shop\Managing_coffee_shop.Module\obj\Release\net8.0\Managing_coffee_shop.Module.csproj.CoreCompileInputs.cache
+D:\Github\CafeCMU2\Managing coffee shop\Managing_coffee_shop.Module\obj\Release\net8.0\Managing_coffee_shop.Module.sourcelink.json
+D:\Github\CafeCMU2\Managing coffee shop\Managing_coffee_shop.Module\obj\Release\net8.0\Managing_coffee_shop.Module.dll
+D:\Github\CafeCMU2\Managing coffee shop\Managing_coffee_shop.Module\obj\Release\net8.0\refint\Managing_coffee_shop.Module.dll
+D:\Github\CafeCMU2\Managing coffee shop\Managing_coffee_shop.Module\obj\Release\net8.0\Managing_coffee_shop.Module.pdb
+D:\Github\CafeCMU2\Managing coffee shop\Managing_coffee_shop.Module\obj\Release\net8.0\ref\Managing_coffee_shop.Module.dll

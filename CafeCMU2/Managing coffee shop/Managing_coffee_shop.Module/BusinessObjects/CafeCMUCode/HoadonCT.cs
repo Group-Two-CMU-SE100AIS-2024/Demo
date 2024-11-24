@@ -14,6 +14,7 @@ namespace Managing_coffee_shop.Module.BusinessObjects.ORMDataModel1
         public override void AfterConstruction()
         { 
             base.AfterConstruction();
+            
         }
     }
 

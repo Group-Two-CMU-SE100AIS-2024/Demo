@@ -14,8 +14,25 @@
       </Item>
       <Item Id="@55448715-ffb9-44cb-ad88-a5bd01c2c7a3" Caption="Quản lý" ImageName="BO_Category" IsNewNode="True">
         <Items IsNewNode="True">
+          <Item Id="@2c7e31ce-ed1c-4b8f-98b2-de0d5765c1c3" Caption="Khách hàng" ViewId="Khachhang_ListView" IsNewNode="True" />
           <Item Id="@9ff26097-3e5b-4c92-acec-8509ddffe087" ViewId="Sanpham_ListView" Caption="Sản phẩm" IsNewNode="True" />
           <Item Id="@b1bd6b05-1316-4afd-a6e0-dc3d1658faa6" Caption="Hóa đơn" ImageName="BO_Invoice" ViewId="Hoadon_ListView" IsNewNode="True" />
+        </Items>
+      </Item>
+      <Item Id="@6f0ff37d-cbd2-4fc6-8b8e-d45c3bc5be40" Caption="Nhân sự" IsNewNode="True">
+        <Items IsNewNode="True">
+          <Item Id="@aae89c05-3f7a-4478-8a93-0469b8b78e4a" Caption="Chấm công" ViewId="Chamcong_ListView" IsNewNode="True" />
+          <Item Id="@c2d828f1-f103-48f2-b442-70f73c9cd9d7" Caption="Nhân viên" ViewId="Nhanvien_ListView" IsNewNode="True" />
+          <Item Id="@d21cb4a8-f189-4416-be56-f93a912745e9" Caption="Bảng lương" ViewId="Bangluong_ListView" IsNewNode="True" />
+        </Items>
+      </Item>
+      <Item Id="@ba362107-2535-4a93-8885-b69b7190fd42" Caption="Các thuộc tính khác" IsNewNode="True">
+        <Items IsNewNode="True">
+          <Item Id="@3ba21c2d-7c38-49f1-9b81-927086290881" ViewId="HoadonCT_ListView" Caption="Hóa đơn chi tiết" IsNewNode="True" />
+          <Item Id="@656e06ab-1532-4042-93d3-81c14bc8d095" Caption="Dòng nhập" ViewId="Dongnhap_ListView" IsNewNode="True" />
+          <Item Id="@661eb969-a6ab-4583-9ae3-f6a275a12602" Caption="Nhóm sản phẩm" ViewId="Nhomsp_ListView" IsNewNode="True" />
+          <Item Id="@df327447-98f4-4ecf-8d39-3b4929c998cf" Caption="Định lượng" ViewId="Dinhluong_ListView" IsNewNode="True" />
+          <Item Id="@f7b75358-7fdb-40fd-8062-3a0e1c2b5369" Caption="Tiêu hao" ViewId="Tieuhao_ListView" IsNewNode="True" />
         </Items>
       </Item>
     </Items>
@@ -28,11 +45,20 @@
   </SchemaModules>
   <Views>
     <ListView Id="ApplicationUser_ListView" Caption="Users" />
+    <ListView Id="Bangluong_ListView" AllowEdit="True" NewItemRowPosition="Top" />
+    <ListView Id="Chamcong_ListView" AllowEdit="True" NewItemRowPosition="Top" />
+    <ListView Id="Dinhluong_ListView" AllowEdit="True" NewItemRowPosition="Top" />
+    <ListView Id="Dongnhap_ListView" AllowEdit="True" NewItemRowPosition="Top" />
     <ListView Id="Hoadon_HoadonCTs_ListView" AllowEdit="True" NewItemRowPosition="Top" />
-    <ListView Id="Hoadon_ListView" AllowEdit="True" />
+    <ListView Id="Hoadon_ListView" AllowEdit="True" NewItemRowPosition="Top" />
+    <ListView Id="HoadonCT_Dongnhaps_ListView" AllowEdit="True" NewItemRowPosition="Top" />
+    <ListView Id="Khachhang_ListView" AllowEdit="True" NewItemRowPosition="Top" />
     <ListView Id="Nhacungcap_ListView" AllowEdit="True" NewItemRowPosition="Top" />
+    <ListView Id="Nhanvien_ListView" AllowEdit="True" NewItemRowPosition="Top" />
+    <ListView Id="Nhomsp_ListView" AllowEdit="True" NewItemRowPosition="Top" />
     <ListView Id="Phieuchi_ListView" AllowEdit="True" NewItemRowPosition="Top" />
     <ListView Id="Phieunhap_ListView" AllowEdit="True" NewItemRowPosition="Top" />
     <ListView Id="Sanpham_ListView" AllowEdit="True" NewItemRowPosition="Top" />
+    <ListView Id="Tieuhao_ListView" AllowEdit="True" NewItemRowPosition="Top" />
   </Views>
 </Application>

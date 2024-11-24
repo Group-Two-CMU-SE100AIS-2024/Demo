@@ -31,7 +31,12 @@ namespace Managing_coffee_shop.Module.BusinessObjects.ORMDataModel1
         public Sanpham SanphamID
         {
             get { return fSanphamID; }
-            set { SetPropertyValue<Sanpham>(nameof(SanphamID), ref fSanphamID, value); }
+            set 
+            {
+                if (SetPropertyValue<Sanpham>(nameof(SanphamID), ref fSanphamID, value)
+                    && !IsLoading && !IsDeleted && value != null)
+                    Dongia = value.Giaban;
+            }
         }
         double fSoluong;
         public double Soluong
