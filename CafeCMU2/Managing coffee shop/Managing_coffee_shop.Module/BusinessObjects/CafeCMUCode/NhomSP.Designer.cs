@@ -17,7 +17,7 @@ namespace Managing_coffee_shop.Module.BusinessObjects.ORMDataModel1
 {
 
     [DefaultProperty("Tennhom")]
-    public partial class NhomSP : DevExpress.Persistent.BaseImpl.BaseObject
+    public partial class Nhomsp : DevExpress.Persistent.BaseImpl.BaseObject
     {
         string fTennhom;
         [Size(50)]

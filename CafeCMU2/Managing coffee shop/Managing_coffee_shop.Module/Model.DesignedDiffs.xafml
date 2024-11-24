@@ -5,6 +5,13 @@
   </BOModel>
   <NavigationItems>
     <Items>
+      <Item Id="@37cc87d2-762b-4889-8890-178154b910a6" Caption="Nhập kho" ImageName="BO_Order_Item" IsNewNode="True">
+        <Items IsNewNode="True">
+          <Item Id="@07c7c80d-5c6e-494e-81f6-d746aad8c173" Caption="Phiếu chi" ViewId="Phieuchi_ListView" IsNewNode="True" />
+          <Item Id="@509674f9-b45b-4a7f-a9e0-19d9b016c61c" Caption="Phiếu nhập" ViewId="Phieunhap_ListView" IsNewNode="True" />
+          <Item Id="@850dff94-7484-4d77-9496-bc055b85f08e" ViewId="Nhacungcap_ListView" Caption="Nhà cung cấp" IsNewNode="True" />
+        </Items>
+      </Item>
       <Item Id="@55448715-ffb9-44cb-ad88-a5bd01c2c7a3" Caption="Quản lý" ImageName="BO_Category" IsNewNode="True">
         <Items IsNewNode="True">
           <Item Id="@9ff26097-3e5b-4c92-acec-8509ddffe087" ViewId="Sanpham_ListView" Caption="Sản phẩm" IsNewNode="True" />
@@ -23,6 +30,9 @@
     <ListView Id="ApplicationUser_ListView" Caption="Users" />
     <ListView Id="Hoadon_HoadonCTs_ListView" AllowEdit="True" NewItemRowPosition="Top" />
     <ListView Id="Hoadon_ListView" AllowEdit="True" />
+    <ListView Id="Nhacungcap_ListView" AllowEdit="True" NewItemRowPosition="Top" />
+    <ListView Id="Phieuchi_ListView" AllowEdit="True" NewItemRowPosition="Top" />
+    <ListView Id="Phieunhap_ListView" AllowEdit="True" NewItemRowPosition="Top" />
     <ListView Id="Sanpham_ListView" AllowEdit="True" NewItemRowPosition="Top" />
   </Views>
 </Application>

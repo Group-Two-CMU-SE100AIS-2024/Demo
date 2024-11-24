@@ -224,3 +224,7 @@ D:\Github\CafeCMU2\Managing coffee shop\Managing_coffee_shop.Blazor.Server\obj\D
 D:\Github\CafeCMU2\Managing coffee shop\Managing_coffee_shop.Blazor.Server\obj\Debug\net8.0\Managing_coffee_shop.Blazor.Server.pdb
 D:\Github\CafeCMU2\Managing coffee shop\Managing_coffee_shop.Blazor.Server\obj\Debug\net8.0\Managing_coffee_shop.Blazor.Server.genruntimeconfig.cache
 D:\Github\CafeCMU2\Managing coffee shop\Managing_coffee_shop.Blazor.Server\obj\Debug\net8.0\ref\Managing_coffee_shop.Blazor.Server.dll
+D:\Github\CafeCMU2\Managing coffee shop\Managing_coffee_shop.Blazor.Server\bin\Debug\net8.0\Managing_coffee_shop.Blazor.Server.staticwebassets.endpoints.json
+D:\Github\CafeCMU2\Managing coffee shop\Managing_coffee_shop.Blazor.Server\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+D:\Github\CafeCMU2\Managing coffee shop\Managing_coffee_shop.Blazor.Server\obj\Debug\net8.0\staticwebassets\msbuild.Managing_coffee_shop.Blazor.Server.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+D:\Github\CafeCMU2\Managing coffee shop\Managing_coffee_shop.Blazor.Server\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

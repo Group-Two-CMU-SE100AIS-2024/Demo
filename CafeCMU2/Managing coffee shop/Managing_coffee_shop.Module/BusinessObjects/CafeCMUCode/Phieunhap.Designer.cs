@@ -16,7 +16,7 @@ using System.Reflection;
 namespace Managing_coffee_shop.Module.BusinessObjects.ORMDataModel1
 {
 
-    [DefaultProperty("Sophieu)]
+    [DefaultProperty("Sophieu")]
 
     public partial class Phieunhap : DevExpress.Persistent.BaseImpl.BaseObject
     {

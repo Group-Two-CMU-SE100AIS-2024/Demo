@@ -26,7 +26,7 @@
         <elementListCompartment Id="c7ff4704-3562-460f-863d-8312714250e9" absoluteBounds="13.515, 3.53068359375, 1.4700000000000002, 0.44169108072916652" name="Collections" titleTextColor="Black" itemTextColor="Black" />
       </nestedChildShapes>
     </xpObjectShape>
-    <aggregationConnector Id="7f97d436-0cdd-45d3-b381-a68384956315" edgePoints="[(13.5 : 3.09868733723958); (11.375 : 3.09868733723958)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+    <aggregationConnector Id="7f97d436-0cdd-45d3-b381-a68384956315" edgePoints="[(13.5 : 3.09868733723958); (11.375 : 3.09868733723958)]" fixedFrom="NotFixed" fixedTo="NotFixed">
       <aggregationMoniker Id="c14ab67f-0db6-4922-886e-68ba80aa8c18" />
       <relativeChildShapes />
       <nodes>
@@ -39,7 +39,7 @@
         </associationConnectorReferencesSourceCollectionField>
       </sourceCollectionField>
     </aggregationConnector>
-    <aggregationConnector Id="6e181312-faf9-4489-917a-ec83e035ef86" edgePoints="[(12.5 : 4.75); (12.5 : 3.78023565429687); (11.375 : 3.78023565429687)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+    <aggregationConnector Id="6e181312-faf9-4489-917a-ec83e035ef86" edgePoints="[(12.5 : 4.75); (12.5 : 3.78023565429687); (11.375 : 3.78023565429687)]" fixedFrom="NotFixed" fixedTo="NotFixed">
       <aggregationMoniker Id="5169877f-efbd-48c8-8c89-8ac26b9f2cca" />
       <relativeChildShapes />
       <nodes>
@@ -140,7 +140,7 @@
         <elementListCompartment Id="158a9779-82eb-4281-8a0a-6a0a61a2ce0e" absoluteBounds="19.14, 11.722985026041666, 1.4700000000000002, 0.2493896484375" name="Collections" titleTextColor="Black" itemTextColor="Black" />
       </nestedChildShapes>
     </xpObjectShape>
-    <aggregationConnector Id="c81ad0da-ed6b-48c1-a8b5-76edbe252d5e" edgePoints="[(11.75 : 5.15625); (10.7083333333333 : 5.15625 : JumpStart); (10.5416666666667 : 5.15625 : JumpEnd); (7.33333333333333 : 5.15625 : JumpStart); (7.16666666666667 : 5.15625 : JumpEnd); (5.75 : 5.15625)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+    <aggregationConnector Id="c81ad0da-ed6b-48c1-a8b5-76edbe252d5e" edgePoints="[(11.75 : 5.15625); (10.7083333333333 : 5.15625 : JumpStart); (10.5416666666667 : 5.15625 : JumpEnd); (5.75 : 5.15625)]" fixedFrom="NotFixed" fixedTo="NotFixed">
       <aggregationMoniker Id="7afe3b35-5172-421e-987a-66b2b8c8208f" />
       <relativeChildShapes />
       <nodes>
@@ -153,7 +153,7 @@
         </associationConnectorReferencesSourceCollectionField>
       </sourceCollectionField>
     </aggregationConnector>
-    <aggregationConnector Id="35a093fc-8706-4d1c-a8f2-4b514c741e3d" edgePoints="[(9.875 : 3.9882275390625); (7.33333333333333 : 3.9882275390625 : JumpStart); (7.16666666666667 : 3.9882275390625 : JumpEnd); (5 : 3.9882275390625); (5 : 5)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+    <aggregationConnector Id="35a093fc-8706-4d1c-a8f2-4b514c741e3d" edgePoints="[(9.875 : 3.9882275390625); (5 : 3.9882275390625); (5 : 5)]" fixedFrom="NotFixed" fixedTo="NotFixed">
       <aggregationMoniker Id="5ac64428-2f20-423e-9c84-acd9f8e0dc19" />
       <relativeChildShapes />
       <nodes>
@@ -166,7 +166,7 @@
         </associationConnectorReferencesSourceCollectionField>
       </sourceCollectionField>
     </aggregationConnector>
-    <aggregationConnector Id="0bfa9000-e1c6-4dc8-950e-60118f64d27a" edgePoints="[(10.625 : 4.39927897135417); (10.625 : 6.34868733723958); (9.625 : 6.34868733723958)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+    <aggregationConnector Id="0bfa9000-e1c6-4dc8-950e-60118f64d27a" edgePoints="[(10.625 : 4.39927897135417); (10.625 : 6.34868733723958); (9.625 : 6.34868733723958)]" fixedFrom="NotFixed" fixedTo="NotFixed">
       <aggregationMoniker Id="4a33763b-7d1b-4e6d-bc50-b8f19bf603d1" />
       <relativeChildShapes />
       <nodes>
@@ -179,7 +179,7 @@
         </associationConnectorReferencesSourceCollectionField>
       </sourceCollectionField>
     </aggregationConnector>
-    <aggregationConnector Id="09dff5fa-1bbb-439f-ba1c-b2ff8be4331a" edgePoints="[(11.75 : 5.79934366861979); (10.7083333333333 : 5.79934366861979 : JumpStart); (10.5416666666667 : 5.79934366861979 : JumpEnd); (9.625 : 5.79934366861979)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+    <aggregationConnector Id="09dff5fa-1bbb-439f-ba1c-b2ff8be4331a" edgePoints="[(11.75 : 5.79934366861979); (9.625 : 5.79934366861979)]" fixedFrom="NotFixed" fixedTo="NotFixed">
       <aggregationMoniker Id="2b55448a-d7d5-455d-96e4-c2b0560752ef" />
       <relativeChildShapes />
       <nodes>
@@ -192,7 +192,7 @@
         </associationConnectorReferencesSourceCollectionField>
       </sourceCollectionField>
     </aggregationConnector>
-    <aggregationConnector Id="eaa441d6-6f1d-4757-861a-569ded9dac63" edgePoints="[(13.25 : 5.78125); (17.5 : 5.78125)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+    <aggregationConnector Id="eaa441d6-6f1d-4757-861a-569ded9dac63" edgePoints="[(13.25 : 5.78125); (17.5 : 5.78125)]" fixedFrom="NotFixed" fixedTo="NotFixed">
       <aggregationMoniker Id="0a27e271-0024-4a30-b2a5-84e74f0df298" />
       <relativeChildShapes />
       <nodes>
@@ -205,7 +205,7 @@
         </associationConnectorReferencesSourceCollectionField>
       </sourceCollectionField>
     </aggregationConnector>
-    <aggregationConnector Id="5f35634e-2d9a-4ee6-9972-45e0bb125b6b" edgePoints="[(13.25 : 6.39316162109375); (17.5 : 6.39316162109375)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+    <aggregationConnector Id="5f35634e-2d9a-4ee6-9972-45e0bb125b6b" edgePoints="[(13.25 : 6.39316162109375); (17.5 : 6.39316162109375)]" fixedFrom="NotFixed" fixedTo="NotFixed">
       <aggregationMoniker Id="b16eb55e-cb91-4cbe-bf46-e1b46fcb68e1" />
       <relativeChildShapes />
       <nodes>
@@ -218,7 +218,7 @@
         </associationConnectorReferencesSourceCollectionField>
       </sourceCollectionField>
     </aggregationConnector>
-    <aggregationConnector Id="090bb7a7-1737-4c56-9392-223a678eb68e" edgePoints="[(9.125 : 10.1948380533854); (7.33333333333333 : 10.1948380533854 : JumpStart); (7.16666666666667 : 10.1948380533854 : JumpEnd); (5.75 : 10.1948380533854)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+    <aggregationConnector Id="090bb7a7-1737-4c56-9392-223a678eb68e" edgePoints="[(9.125 : 10.1948380533854); (5.75 : 10.1948380533854)]" fixedFrom="NotFixed" fixedTo="NotFixed">
       <aggregationMoniker Id="7a14e1f6-a8f0-4b69-b4b6-9d5509d1a515" />
       <relativeChildShapes />
       <nodes>
@@ -231,7 +231,7 @@
         </associationConnectorReferencesSourceCollectionField>
       </sourceCollectionField>
     </aggregationConnector>
-    <aggregationConnector Id="bd4d0c47-ab4a-4438-8ba4-a7ec58f08a34" edgePoints="[(10.625 : 9.50253662109375); (11.875 : 9.50253662109375)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+    <aggregationConnector Id="bd4d0c47-ab4a-4438-8ba4-a7ec58f08a34" edgePoints="[(10.625 : 9.50253662109375); (11.875 : 9.50253662109375)]" fixedFrom="NotFixed" fixedTo="NotFixed">
       <aggregationMoniker Id="c7aa26ff-caa2-4ab3-963f-a324d4b2e249" />
       <relativeChildShapes />
       <nodes>
@@ -244,7 +244,7 @@
         </associationConnectorReferencesSourceCollectionField>
       </sourceCollectionField>
     </aggregationConnector>
-    <aggregationConnector Id="13c32d66-5c68-4436-9ed0-b4aa8d9cb8ad" edgePoints="[(7.25 : 3.51467610677083); (7.25 : 12.3007275390625); (15.25 : 12.3007275390625)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+    <aggregationConnector Id="13c32d66-5c68-4436-9ed0-b4aa8d9cb8ad" edgePoints="[(7.25 : 3.51467610677083); (7.25 : 12.3007275390625); (15.25 : 12.3007275390625)]" fixedFrom="NotFixed" fixedTo="NotFixed">
       <aggregationMoniker Id="1f1f934e-1eff-487b-afaa-085c7bffb65d" />
       <relativeChildShapes />
       <nodes>
@@ -257,7 +257,7 @@
         </associationConnectorReferencesSourceCollectionField>
       </sourceCollectionField>
     </aggregationConnector>
-    <aggregationConnector Id="349348e2-3486-4cc8-847d-0add8e236afe" edgePoints="[(10.625 : 11.1996394856771); (15.25 : 11.1996394856771)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+    <aggregationConnector Id="349348e2-3486-4cc8-847d-0add8e236afe" edgePoints="[(10.625 : 11.1996394856771); (15.25 : 11.1996394856771)]" fixedFrom="NotFixed" fixedTo="NotFixed">
       <aggregationMoniker Id="f5675062-14a9-40e8-86aa-06603fbdb013" />
       <relativeChildShapes />
       <nodes>
@@ -270,7 +270,7 @@
         </associationConnectorReferencesSourceCollectionField>
       </sourceCollectionField>
     </aggregationConnector>
-    <aggregationConnector Id="09df1d53-9f4e-4da6-8774-af74c151cd42" edgePoints="[(8 : 1.59375); (19.875 : 1.59375); (19.875 : 10.125)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+    <aggregationConnector Id="09df1d53-9f4e-4da6-8774-af74c151cd42" edgePoints="[(8 : 1.59375); (19.875 : 1.59375); (19.875 : 10.125)]" fixedFrom="NotFixed" fixedTo="NotFixed">
       <aggregationMoniker Id="3b8e3874-dc7d-4d41-9a37-999001b3edda" />
       <relativeChildShapes />
       <nodes>
@@ -283,7 +283,7 @@
         </associationConnectorReferencesSourceCollectionField>
       </sourceCollectionField>
     </aggregationConnector>
-    <aggregationConnector Id="daae226c-6803-40fd-b9d2-982972fded31" edgePoints="[(10.625 : 10.5650366210937); (19.125 : 10.5650366210937)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+    <aggregationConnector Id="daae226c-6803-40fd-b9d2-982972fded31" edgePoints="[(10.625 : 10.5650366210937); (19.125 : 10.5650366210937)]" fixedFrom="NotFixed" fixedTo="NotFixed">
       <aggregationMoniker Id="b29aef2c-6a41-4ef8-a02d-fcc4ea2bdd93" />
       <relativeChildShapes />
       <nodes>
@@ -296,7 +296,7 @@
         </associationConnectorReferencesSourceCollectionField>
       </sourceCollectionField>
     </aggregationConnector>
-    <aggregationConnector Id="ffa97b1a-6bfd-4eea-b47c-5c5579a9aa1a" edgePoints="[(15 : 7.45444091796875); (13.25 : 7.45444091796875)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+    <aggregationConnector Id="ffa97b1a-6bfd-4eea-b47c-5c5579a9aa1a" edgePoints="[(15 : 7.45444091796875); (13.25 : 7.45444091796875)]" fixedFrom="NotFixed" fixedTo="NotFixed">
       <aggregationMoniker Id="4a219c71-7c67-4e4d-8b09-1bdd3a9093d4" />
       <relativeChildShapes />
       <nodes>

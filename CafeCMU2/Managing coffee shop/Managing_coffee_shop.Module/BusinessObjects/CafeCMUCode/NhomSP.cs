@@ -8,10 +8,13 @@ using System.Reflection;
 namespace Managing_coffee_shop.Module.BusinessObjects.ORMDataModel1
 {
 
-    public partial class NhomSP
+    public partial class Nhomsp
     {
-        public NhomSP(Session session) : base(session) { }
-        public override void AfterConstruction() { base.AfterConstruction(); }
+        public Nhomsp(Session session) : base(session) { }
+        public override void AfterConstruction() 
+        { 
+            base.AfterConstruction(); 
+        }
     }
 
 }

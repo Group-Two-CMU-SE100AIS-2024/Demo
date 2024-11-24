@@ -11,7 +11,10 @@ namespace Managing_coffee_shop.Module.BusinessObjects.ORMDataModel1
     public partial class Phieunhap
     {
         public Phieunhap(Session session) : base(session) { }
-        public override void AfterConstruction() { base.AfterConstruction(); }
+        public override void AfterConstruction() 
+        { 
+            base.AfterConstruction();
+        }
     }
 
 }

@@ -19,12 +19,12 @@ namespace Managing_coffee_shop.Module.BusinessObjects.ORMDataModel1
     [DefaultProperty("TenSP")]
     public partial class Sanpham : DevExpress.Persistent.BaseImpl.BaseObject
     {
-        NhomSP fNhomID;
+        Nhomsp fNhomID;
         [Association(@"SanphamReferencesNhomSP")]
-        public NhomSP NhomID
+        public Nhomsp NhomID
         {
             get { return fNhomID; }
-            set { SetPropertyValue<NhomSP>(nameof(NhomID), ref fNhomID, value); }
+            set { SetPropertyValue<Nhomsp>(nameof(NhomID), ref fNhomID, value); }
         }
         string fTenSP;
         [Size(50)]
