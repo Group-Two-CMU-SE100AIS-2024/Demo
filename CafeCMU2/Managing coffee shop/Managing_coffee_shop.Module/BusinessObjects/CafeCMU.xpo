@@ -8,7 +8,7 @@
             <field Id="c29519ed-ff0a-404b-aede-4fa4b3589d94" name="NhomID" virtualColumnType="Nhomsp" logicalType="Nhomsp" delayedUpdateModifiedOnly="false" />
           </generalXpObjectHasFields>
           <generalXpObjectHasFields Id="cdf6b9d9-0c6f-4095-a1ab-8606d6b57102">
-            <field Id="7b416c3f-5840-4093-8b3b-fa9d574b8522" name="TenSP" virtualColumnType="String" delayedUpdateModifiedOnly="false" size="50" />
+            <field Id="7b416c3f-5840-4093-8b3b-fa9d574b8522" name="TenSP" displayName="Tên sản phẩm" virtualColumnType="String" delayedUpdateModifiedOnly="false" size="50" />
           </generalXpObjectHasFields>
           <generalXpObjectHasFields Id="7c23afa0-5fe5-43b6-9f31-2c00ead87948">
             <field Id="9ad433f8-2035-4692-8ae9-e940daba1023" name="Dvt" virtualColumnType="String" delayedUpdateModifiedOnly="false" size="30" />
@@ -341,10 +341,10 @@
             <field Id="e1bbccaa-68c3-4e15-a29e-d1144128306e" name="NhanvienID" virtualColumnType="Nhanvien" logicalType="Nhanvien" delayedUpdateModifiedOnly="false" />
           </generalXpObjectHasFields>
           <generalXpObjectHasFields Id="c2a24ce1-6926-4427-8611-ad34f9838222">
-            <field Id="4512896a-f7c3-43f0-8f6c-b882f4362bac" name="Sophieu" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
+            <field Id="4512896a-f7c3-43f0-8f6c-b882f4362bac" name="Sophieu" columnType="DateTime" virtualColumnType="DateTime" delayedUpdateModifiedOnly="false" />
           </generalXpObjectHasFields>
           <generalXpObjectHasFields Id="13bb57af-95af-4b94-8c08-53d6555da1be">
-            <field Id="6c237f3e-39fe-4a17-8858-cb2d5120606c" name="Ngay" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
+            <field Id="6c237f3e-39fe-4a17-8858-cb2d5120606c" name="Ngay" columnType="DateTime" virtualColumnType="DateTime" delayedUpdateModifiedOnly="false" customAttributes="DevExpress.ExpressApp.Model.ModelDefault(&quot;EditMask&quot;, &quot;dd/MM/yyyy HH:mm&quot;),&#xD;&#xA;DevExpress.ExpressApp.Model.ModelDefault(&quot;DisplayFormat&quot;, &quot;{0:dd/MM/yyyy HH:mm}&quot;)" />
           </generalXpObjectHasFields>
         </fields>
       </xpObject>

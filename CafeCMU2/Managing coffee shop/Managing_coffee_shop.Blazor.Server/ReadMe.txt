@@ -1,4 +1,4 @@
-﻿Project Description
+﻿Project Descriptio
 
 This project implements an ASP.NET Core Blazor Server application (https://docs.microsoft.com/en-us/aspnet/core/blazor/).
 The root project folder contains the BlazorApplication.cs file with the class that inherits
